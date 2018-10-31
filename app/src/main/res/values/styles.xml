@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyBox">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_margin">5dp</item>
+    </style>
+
+    <style name="MyBox.TEAL">
+        <item name="android:background">#009688</item>
+    </style>
+
+    <style name="MyBox.CYAN">
+        <item name="android:background">#00BCD4</item>
+    </style>
+
+    <style name="TealBox" parent="MyBox">
+        <item name="android:background">#009688</item>
+    </style>
+
+    <style name="MyTheme" parent="AppTheme" >
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
