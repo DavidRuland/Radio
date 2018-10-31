@@ -3,7 +3,6 @@ package com.ruland.davidr.radio.myradio.screens.splashscreen.repository
 import android.app.Application
 import android.arch.lifecycle.LiveData
 import android.os.AsyncTask
-import android.support.annotation.WorkerThread
 import com.ruland.davidr.radio.myradio.screens.splashscreen.dao.ListChannelDao
 import com.ruland.davidr.radio.myradio.screens.splashscreen.database.AppDataBase
 import com.ruland.davidr.radio.myradio.screens.splashscreen.entity.Channel

@@ -10,4 +10,4 @@ data class Channel(@ColumnInfo(name="category_name") var channelName: String,
                    @ColumnInfo (name= "song") var songName:String,
                    @ColumnInfo (name = "artist") var artist:String,
                    @ColumnInfo(name="id")
-                   @PrimaryKey(autoGenerate = true) var id: String)
+                   @PrimaryKey(autoGenerate = true) var id: Int)

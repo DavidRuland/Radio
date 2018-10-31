@@ -9,7 +9,7 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.ruland.davidr.radio"
-        minSdkVersion 15
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
@@ -37,9 +37,6 @@ dependencies {
     //Room
     implementation "android.arch.persistence.room:runtime:1.1.1"
     kapt "android.arch.persistence.room:compiler:1.1.1"
-
-    ///Lifecycles, LiveData and ViewModel
-    kapt 'com.android.databinding:compiler:3.1.4'
 
     // ViewModel and LiveData
     implementation "android.arch.lifecycle:extensions:1.1.1"
